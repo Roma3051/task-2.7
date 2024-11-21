@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body class="white-background">
+    <header>
+        <div class="container">
+            <div class="add">
+                <div class="search">
+                    <h1>Where in the world?</h1>
+                    <div class="button">
+                        <input id="text" type="text" placeholder="Search for a country....">
+                        <button class="search-button"><img src="./img/search.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="region-selector">
+                    <input class="foxy" type="checkbox" id="background-toggle-button">
+                    <label for="background-toggle-button"></label>
+                    <input type="checkbox" id="burger">
+                    <label for="burger" id="regionLabel">Region</label>
+                    <nav class="nav">
+                        <ul class="side-list">          
+                            <!-- Region from JS -->
+                        </ul> 
+                    </nav>
+                </div>                                                  
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container"> 
+            <ul class="cards" id="cards">
+                <!-- Card from JS -->
+            </ul>
+        </div> 
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
